@@ -1,46 +1,26 @@
-# Getting Started with Create React App
+<h1 align="center">Tela de Login com Typescript e React Form Hoojs</h1>
+<p align="center">
+O Projeto consiste na aplicação de tela de loguin utilizando typescript e form Hooks para criar a validação do email e da senha.
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a href="#">
+  <img src="./.github/preview.png">
+</a>
 
-## Available Scripts
+## Súmario
 
-In the project directory, you can run:
+- [✨ Features](#features)
+- [🏆 Sobre](#sobre)
 
-### `npm start`
+<h2 id="features">✨ Features </h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React
+- HTML
+- CSS
+- Styled Components
+- React Hooks Forms
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+<h2 id="sobre">🏆 Sobre</h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Como objetivo desse projeto construímos uma tela de login utilizando como base do projeto React e TypeScript, colocando em prática o conceito de trabalharmos com uma IDE inteligênte identificando os erros durante o processo de desenvolvimento, para a construção visual foi utilizado o Styled-Components. Optei por ocultar o Button equanto os dois Input não atenderem as demandas exigidas, para o email ele deve seguir o padrão comum, e para a senha exigida apenas um mínimo de 6 caracteres, para a detecção de erro foi optado por utilizar o padrão <strong>mode: "onBlur"</strong>, ou seja quando o usuário perder o foco do campo caso tenha algum erro ele será detectado.
